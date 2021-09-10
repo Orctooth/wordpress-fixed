@@ -1,0 +1,8 @@
+2021-08-18T09:56:57+00:00 CRITICAL Uncaught TypeError: Return value of WCPay\MultiCurrency\MultiCurrency::get_default_currency() must be an instance of WCPay\MultiCurrency\Currency, null returned in /home/harrywelchman/public_html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php:511
+Stack trace:
+#0 /home/harrywelchman/public_html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/Compatibility.php(299): WCPay\MultiCurrency\MultiCurrency->get_default_currency()
+#1 /home/harrywelchman/public_html/wordpress/wp-includes/class-wp-hook.php(305): WCPay\MultiCurrency\Compatibility->convert_order_prices(Array)
+#2 /home/harrywelchman/public_html/wordpress/wp-includes/plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#3 /home/harrywelchman/public_html/wordpress/wp-content/plugins/woocommerce/includes/class-wc-order-query.php(88): apply_filters('woocommerce_ord...', Array, Array)
+#4 /home/harrywelchman/public_html/wordpress/wp-content/plugins/woocommerce/packages/woocommerce-admin/src/N in /home/harrywelchman/public_html/wordpress/wp-content/plugins/woocommerce-payments/includes/multi-currency/MultiCurrency.php on line 511
+
